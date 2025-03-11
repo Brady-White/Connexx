@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "io.hammerhead.karooexttemplate"
+    namespace = "io.hammerhead.connexx"
     compileSdk = 34
 
     defaultConfig {
@@ -40,4 +40,5 @@ dependencies {
     implementation(libs.bundles.androidx.lifeycle)
     implementation(libs.androidx.activity.compose)
     implementation(libs.bundles.compose.ui)
+    implementation("io.hammerhead:karoo-ext:1.1.5")
 }
